@@ -12,6 +12,6 @@
         <label id="sex">Kobieta</label><input type="radio" name="sex" formControlName="sex" value="kobieta" />
         <label id="sex">Mężczyzna</label><input type="radio" name="sex" formControlName="sex" value="mężczyzna" /><br />
 
-        <button type="submit">Wyślij</button>
+        <button (click)="addTodo(firstname.value, lastname.value, zip.value, email.value, sex.value)" type="submit">Wyślij</button>
     </form>
 </div>
