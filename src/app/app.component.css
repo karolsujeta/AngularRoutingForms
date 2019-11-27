@@ -1,0 +1,21 @@
+body{
+    background: #233d49;
+}
+
+nav{
+    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: #192c35;
+}
