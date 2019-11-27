@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormComponent } from './form/form.component';
-import { ViewComponent } from './view/view.component';
 import { DataComponent } from './data/data.component';
 
 
@@ -12,7 +11,6 @@ import { DataComponent } from './data/data.component';
   declarations: [
     AppComponent,
     FormComponent,
-    ViewComponent,
     DataComponent,
   ],
   imports: [
