@@ -9,7 +9,6 @@ import { EmailValidator } from '@angular/forms';
   styleUrls: ['./data.component.css']
 })
 export class DataComponent implements OnInit {
-  title: 'karakan';
   todos=[
     {
       firstname: 'Edek',
